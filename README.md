@@ -37,4 +37,10 @@ The Ubuntu Desktop installer opens.
 
 ## Install ROS 2 Jazzy on Ubuntu 24.04
 
+Install ROS 2 with One-Line Script
+Repository:
 
+https://github.com/runtimerobotics/ros2_oneline_install
+
+Install ROS 2 Jazzy:
+wget -c https://raw.githubusercontent.com/runtimerobotics/ros2_oneline_install/main/ros2_install_jazzy.sh && chmod +x ./ros2_install_jazzy.sh && ./ros2_install_jazzy.sh
